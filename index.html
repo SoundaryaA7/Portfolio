@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/514a3f43b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/s.jpg" class="logo"> -->
+                <p class="logo">Soundarya.</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Soundarya</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------About----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/picback.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate and dedicated web developer with a Good knowledge in both front-end and back-end development. My goal is to create web solutions that are not only functional but also visually appealing and user-friendly.
+                    </p>
+                    <p> a passionate and motivated web developer with a strong background in RPA development. I'm enthusiastic about creating web applications that are both functional and user-friendly.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developemt</span><br>Web app Developemt</li>
+                            <li><span>Programming Skills</span><br>Java <br> HTML <br> CSS <br> JavaScript <br>PHP <br>MySQL</li>
+                            <li><span>RPA Developemt</span><br>Uipath</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>Web Development Training at Shivashri Academy</li>
+                            <li><span>January 2023-May 2023</span><br>SENIOR ANALYST (RPA Developer) </li>
+                            <li><span>Dec 2021- 2022</span><br>Graduate Engineer Trainee (RPA Developer)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br>Web Development Training at Shivashri Academy</li>
+                            <li><span>2020</span><br>BE From K.S.Rangasamy college of technology </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------service------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developemt</h2> 
+                    <p>Attending a trainig at Shivashri Academy for web developemnt. Completed few projects</p>
+                    <!-- <a href="#">Learn more</a>   -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>RPA Development</h2> 
+                    <p>Worked on Web application related projects as per the
+                        business need like extracting the data from the desired
+                        websites and worked on Excel automation.Have Developed the process using RE Framework,
+                        Automated certain process (the customer support and
+                        financial related process) that are time consuming,repetitive which required less manual knowledge.
+                       </p>
+                    <!-- <a href="#">Learn more</a>   -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Lorem ipsum dolor</h2> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nihil temporibus possimus recusandae impedit consectetur. Beatae quaerat ea eum! Sequi qui consequatur blanditiis illo maxime molestias commodi 
+                    cumque veniam accusantium.</p>
+                    <a href="#">Learn more</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------Portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/todolist.jpg" alt="">
+                    <div class="layer">
+                        <h3>To-Do List</h3>
+                        <p>Developed a to-do list web application with features like adding, editing, and deleting tasks.</p>
+                        <a href=" https://soundaryaa7.github.io/To-do-List/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/studentmanage.jpg" alt="">
+                    <div class="layer">
+                        <h3>Student mark management</h3>
+                        <p>Created a web-based system for managing student marks and records.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/studentmanage.jpg" alt="">
+                    <div class="layer">
+                        <h3>Lorem ipsum dolor sit </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, reprehenderit. Soluta repellat autem eligendi iusto perspiciatis, voluptatum illum omnis delectus sapiente officia natus maxime distinctio odio dicta ex. Ipsam, eveniet!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        
+        </div>
+    </div>
+    <!-- --------------------Contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i> soundarya99523@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9952352239</p>
+                    <div class="social-icons">
+                        <a href="http:/linkedin.com/in/soundaryaa-
+                        a24775201"><i class="fa-brands fa-linkedin"></i></a> 
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                           
+                    </div>
+                    <a href="images/my cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder=" Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email " required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Soundarya <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) 
+    {
+        for(tablink of tablinks)
+    {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link"); 
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzv8Fi_jr2klkdiimc9O7X6kxTFKa3mQ243ot13zemVOMOGrrEuTId6ndx8hrs5r9Ed/exec'
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</html>
